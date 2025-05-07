@@ -54,7 +54,7 @@ public class LikeController {
         }
     }
 
-    //Update like
+    //Update like 
     @PutMapping(value = "/update/{pid}/{uid}")
     public ResponseEntity<String> UpdateLike(@PathVariable int uid,@PathVariable int pid){
         try {
