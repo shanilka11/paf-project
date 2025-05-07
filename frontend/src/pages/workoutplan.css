@@ -1,0 +1,71 @@
+/* Background Image */
+.background-image {
+    background-image: url('../assests/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* Workout Card */
+  .workout-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+  }
+  
+  .workout-plan-form .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .workout-plan-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .workout-plan-form input,
+  .workout-plan-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .workout-plan-form textarea {
+    height: 120px;
+  }
+  
+  .workout-plan-form button {
+    margin-right: 0.5rem;
+  }
+  
+  /* Card Group */
+  .card-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .card {
+    flex: 0 0 calc(33.33% - 1rem);
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .card-text {
+    margin-bottom: 1rem;
+  }
+  
+  .card button {
+    margin-right: 0.5rem;
+  }
