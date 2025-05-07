@@ -50,7 +50,7 @@ public class MealController {
     // public MealEntity updateMeal(@RequestBody MealEntity meal){
     //     return service.updateMeal(meal);
     // }
-
+    //deletemapp
     @DeleteMapping("delete/{id}")
     public String deleteMeal(@PathVariable int id){
         return service.deleteMeal(id);
