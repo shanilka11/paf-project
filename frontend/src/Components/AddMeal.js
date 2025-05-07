@@ -3,7 +3,7 @@ import axios from 'axios';
 import { getStorage, ref, uploadBytes, getDownloadURL } from 'firebase/storage';
 import { initializeApp } from 'firebase/app';
 
-// Initialize Firebase
+
 const firebaseConfig = {
   apiKey: "AIzaSyBAqn_Zd8L9vVriJRVkbe26PMMJHint1fU",
   authDomain: "paf-socialmedia-c2a9e.firebaseapp.com",
